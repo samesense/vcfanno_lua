@@ -1,1 +1,1 @@
-Vcfanno lua scripts for annotaions.
+Vcfanno lua scripts for annotations.
