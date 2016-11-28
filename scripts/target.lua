@@ -13,7 +13,3 @@ function ratio(vals)
     if vals[2] == 0 then return "0.0" end
     return string.format("%.9f", vals[2] / (vals[1] + vals[2]))
 end
-
-function perry(vals)
-    print("hello")
-end

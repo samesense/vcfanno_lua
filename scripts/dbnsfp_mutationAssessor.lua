@@ -22,7 +22,7 @@ function bestAssessor(vals)
     end
 
     if otherCount > 1 then
-        print("mutationAssesor SHIT")
+        print("mutationAssesor ERROR")
         i = 1/0
     end
 

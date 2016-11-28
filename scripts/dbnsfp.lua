@@ -16,7 +16,7 @@ function bestFathm(vals)
     end
 
     if otherCount > 1 then
-        print("fathm SHIT")
+        print("fathm ERROR")
         i = 1/0
     end
 

@@ -70,7 +70,7 @@ function kaviar_only_has_complete_genomics(vals)
     if type(vals) == "table" then
         return eval_kaviar_table(vals)
     else
-        print("not table shit")
+        print("not table ERROR")
 	print(valTable)
     end
 end

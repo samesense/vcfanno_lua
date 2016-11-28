@@ -21,7 +21,7 @@ function bestTaster(vals)
     end
 
     if otherCount > 1 then
-        --print("mutationTaster SHIT")
+        --print("mutationTaster ERROR")
         --i = 1/0
         return "X"        
     end
