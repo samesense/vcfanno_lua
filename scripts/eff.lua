@@ -1,4 +1,4 @@
--- flag variants that are indels at splice sites
+-- flag variants as splice sites
 -- some are lost b/c they are also missense
 
 function eval_eff_table(valTable)
@@ -9,7 +9,7 @@ function eval_eff_table(valTable)
 	    effs = {valTable[i]}
 	end
 	for j=1,#effs do
-	    if contains(effs[j], 'splice') and ( contains(effs[j], 'ins') or contains(effs[j], 'del') ) then
+	    if contains(effs[j], 'splice') then
 	        return 1
 	    end
 	end
